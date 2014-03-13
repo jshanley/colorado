@@ -1,0 +1,31 @@
+{
+  "name": "colorado",
+  "version": "0.1.0",
+  "description": "ridiculously simple console string colorization",
+  "main": "colorado.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jshanley/colorado.git"
+  },
+  "keywords": [
+    "ansi",
+    "color",
+    "string"
+  ],
+  "author": "John Shanley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jshanley/colorado/issues"
+  },
+  "homepage": "https://github.com/jshanley/colorado",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-nodeunit": "^0.3.3"
+  }
+}
