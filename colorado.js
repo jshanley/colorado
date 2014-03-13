@@ -40,7 +40,7 @@ function getANSI(styleString) {
   return '\x1b[' + list.join(';') + 'm';
 }
 
-module.exports = function() {
+exports.encode = function() {
   // make passed arguments into an array
   var args = Array.prototype.slice.call(arguments, 0);
 
@@ -62,4 +62,10 @@ module.exports = function() {
 
   // return the complete output string
   return output;
+};
+
+var ansi_regex = /\x1b\[(?:\d+|\;)*?m/g;
+
+exports.raw = function(str) {
+  return str.replace(ansi_regex, '');
 };
