@@ -1,7 +1,7 @@
 {
   "name": "colorado",
   "version": "0.1.0",
-  "description": "ridiculously simple console string colorization",
+  "description": "ridiculously simple console string styling",
   "main": "colorado.js",
   "directories": {
     "test": "test"
