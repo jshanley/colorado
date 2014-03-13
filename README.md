@@ -1,4 +1,4 @@
-#colorado
+#colorado [![NPM version](https://badge.fury.io/js/colorado.png)](http://badge.fury.io/js/colorado)
 
 ridiculously simple console string styling in [nodejs](http://nodejs.org).
 
