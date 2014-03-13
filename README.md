@@ -32,6 +32,12 @@ var justAsDangerous = colorado('{{31,1,5}}danger!');
 console.log(justAsDangerous); // remarkably similar
 ```
 
+You can inline a whole bunch of them, and mix and match names and code numbers:
+```javascript
+var obviouslyPractical = colorado('{{blue,104}}blue{{blink}}flashing{{1,49}}emphasized{{reset}}normal')
+console.log(obviouslyPractical); // trés artistique
+```
+
 Styles are reset between each string passed:
 ```javascript
 var cuteStory = colorado(
